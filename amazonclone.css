@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;   /*height width in content area*/
+
+}
+.navbar{
+    height: 60px;
+    background-color:#0f1111;
+    color: white;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.nav_logo{
+    height:50px;
+    width: 100px;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+    border-radius: 5px;
+}
+.add1{
+    color: #cccccc;
+    font-size: .8rem;
+    margin-left: 15px;
+    text-align: center;
+}
+.add2{
+    font-size: 1rem;
+    margin-left: 5px;
+}
+.add-icon{
+    display: flex;
+    align-items:center;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+    
+}
+.nav-search:hover{
+    border-color: orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+.search-icon{
+    background-color: rgb(205, 148, 50);
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+}
+.search-input{
+    width:100%; /*auto occupy leftout area*/
+    font-size: 1rem;
+    border: none;
+}
+.nav-same1{
+    font-size: 0.8rem;
+}
+.nav-same2{
+    font-size: 1rem;
+    font-weight:700;
+}
+
+.nav-cart i{       /*specific in selector*/
+    font-size: 30px;
+}
+.nav-cart{
+    display: flex;
+    justify-content: baseline;
+    align-items: flex-end;
+}
+.nav-cartname{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+/* PANEL */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center ;
+    color: #cccccc;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/* hero section */
+
+.hero-section{
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-mess{
+    background-color: #cccccc;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+
+}
+.hero-mess a{
+    color: #007185;
+    text-decoration: none;
+}
+
+/* shop section */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    height: 300px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+
+}
+.b1{
+    background-image: url(box2_image.jpg); 
+}
+.b2{
+    background-image: url(box5_image.jpg); 
+}
+.b3{
+    background-image: url(box4_image.jpg); 
+}
+.b4{
+    background-image: url(box6_image.jpg); 
+}
+.b5{
+    background-image: url(headsets.jpg); 
+}
+.b6{
+    background-image: url(box7_image.jpg); 
+}
+.b7{
+    background-image: url(box8_image.jpg); 
+}
+.b8{
+    background-image: url(box3_image.jpg); 
+}
+
+
+.box-img{
+    height: 200px;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom:1rem;
+    background-size: cover;
+
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* footer */
+.footer{
+    margin-top: 15px;
+}
+.foot-p1{
+    background-color: #374758;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+.foot-p2{
+    background-color: #222f3d;
+    color: #cccccc;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 30px;
+
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+    text-decoration: none;
+
+}
