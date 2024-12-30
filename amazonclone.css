@@ -17,7 +17,7 @@
     width: 100px;
 }
 .logo{
-    background-image: url(amazon_logo.png);
+    
     background-size: cover;
     height: 50px;
     width: 100px;
@@ -118,14 +118,20 @@
     font-size: 0.9rem;
     font-weight: 700;
 }
+
 /* hero section */
 
+
+
 .hero-section{
+    background-image: url(/amazon_clone/pictures/hero_image.jpg);
     background-size: cover;
     height: 300px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+
+   
 }
 .hero-mess{
     background-color: #cccccc;
@@ -159,6 +165,7 @@
     margin-top: 15px;
 
 }
+
 /* .b1{
     background-image: url(box2_image.jpg); 
 }
@@ -187,15 +194,21 @@
 
 .box-img{
     height: 200px;
+    width: 260px;
     background-repeat: no-repeat;
-    margin-top: 1rem;
-    margin-bottom:1rem;
+   margin: 1rem;
+
     background-size: cover;
 
 }
 .box-content{
     margin-left: 10px;
     margin-right: 10px;
+
+
+}
+.shop{
+    display: block;
 }
 /* footer */
 .footer{
